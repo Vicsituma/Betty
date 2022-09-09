@@ -11,18 +11,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	n = char(n)
-	if (n[-1] > 5]
+	i = char(n)
+	if (i[-1] > 5]
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, n[-1]);
+		printf("Last digit of %d is %s and is greater than 5\n", i[-1]);
 	}
-	else if (n[-1] == 0)
+	else if (i[-1] == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, n[-1])
+		printf("Last digit of %d is %s and is 0\n", n, i[-1])
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n[-1])
+		printf("Last digit of %d is %s and is less than 6 and not 0\n", n, i[-1])
 	}
 
 	return (0);
