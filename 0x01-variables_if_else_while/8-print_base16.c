@@ -6,12 +6,14 @@
 int main(void)
 {
 	int i;
-	char x;
+	char let;
 
-	for (i = 0; i < 10; ++i)
+	for (i = 0; i < 10; i++)
 {
-		x = ("%x",i)
-		putchar(i);
+		putchar((i % 10) + '0');
+
+	for (let = 'a'; let <= 'f'; let++)
+		putchar(let);
 }
 	putchar('\n');
 	return (0);
