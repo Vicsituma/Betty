@@ -9,12 +9,11 @@ int main(void)
 	char let;
 
 	for (i = 0; i < 10; i++)
-{
 		putchar((i % 10) + '0');
 
 	for (let = 'a'; let <= 'f'; let++)
 		putchar(let);
-}
+
 	putchar('\n');
 	return (0);
 }
