@@ -6,11 +6,13 @@
 int main(void)
 {
 	int i;
+	char x;
 
 	for (i = 0; i < 10; ++i)
 {
-		putchar("%x", i);
+		x = ("%x",i)
+		putchar(i);
 }
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
