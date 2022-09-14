@@ -16,3 +16,5 @@ void jack_bauer(void)
 			printf("%d : %d", i, j);
 			_putchar('\n');
 }
+}
+}
