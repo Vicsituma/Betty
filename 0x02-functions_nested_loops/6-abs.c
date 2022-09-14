@@ -11,7 +11,10 @@ int _abs(int i)
 {
 		i= i * -1
 		_putchar('i');
+}
 	else
+{
 		_putchar('i');
+}
 	return (0);
 }
