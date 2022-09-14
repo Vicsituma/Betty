@@ -5,16 +5,15 @@
 * @n: number to check
 * Return: always 0
 */
-int _abs(int i)
+int _abs(int n)
 {
-	if (i < 0)
+	if (n < 0)
 {
-		i= (i * -1);
-		_putchar('i');
+		n = (n * -1);
+		return (n);
 }
 	else
 {
-		_putchar('i');
+		return (n);
 }
-	return (0);
 }
