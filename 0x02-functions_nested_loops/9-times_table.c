@@ -15,7 +15,6 @@ void times_table(void)
 {
 		for (j = 0; j <= n; j++)
 {
-			_putchar(',');
 			_putchar(' ');
 			k = i * j;
 
@@ -32,6 +31,9 @@ void times_table(void)
 			{
 				_putchar((k / 10) + '0');
 			}
+			_putchar(',');
+			_putchar(' ');
+
 			_putchar((k % 10) + '0');
 }
 		_putchar('\n');
