@@ -2,14 +2,14 @@
 #include "main.h"
 /**
 * times_table - prints the 9 times table, starting with 0
-* @n: parameter for product
 * Return: none
 */
-void times_table(int n)
+void times_table(void)
 {
 	int i;
 	int j;
 	int k;
+	int n;
 
 	if (n >= 0 && n <= 15)
 {
