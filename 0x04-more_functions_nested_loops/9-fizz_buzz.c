@@ -2,8 +2,9 @@
 /**
  * main - prints out 100 with words for replacement of 3 and 5
  * and their multiples
+ * Return: Always 0
 */
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -20,5 +21,6 @@ void main(void)
 	}
 	printf("Buzz");
 	printf("\n");
+	return (0);
 }
 
