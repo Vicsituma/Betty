@@ -5,9 +5,9 @@
  * @*m: pointer to an integer
  * Return: nothing
 */
-void reset_to_98(&m)
+void reset_to_98(*m)
 {
-	&m = 98;
+	*m = 98;
 
 	return (0);
 }
