@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		++i;
 	}
-	for (j = 0; src[j] != '\n'; ++j, ++i)
+	for (j = 0; src[j] != '\0'; ++j, ++i)
 	{
 		if (j == n)
 			break;
