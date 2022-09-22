@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+/**
+ * main.h -prototypes
+ * Desc: header file containing prototypes for all functions
+ * used in 0x06-pointers_arrays_strings
+*/
 #include <stdio.h>
 
 int _putchar(char c);
