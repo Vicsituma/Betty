@@ -3,7 +3,7 @@
  * numcomb - prints all possible different combinations of two digits
  * Return: none
 */
-void numcomb(void)
+void main(void)
 {
 	int i, j;
 
