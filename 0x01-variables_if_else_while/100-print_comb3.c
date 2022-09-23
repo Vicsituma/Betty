@@ -17,14 +17,14 @@ void numcomb(void)
 			}
 			else if ( j > i)
 			{
-				continue
+				continue;
 			}
 			else if
 			{
 				putchar(i + '0');
 				putchar(j + '0');
 			}
-			putchar(', '
+			putchar(', ');
 		}
 	}
 }
