@@ -12,4 +12,14 @@ char *leet(char *str)
 	char tlee[] = {'A', 'E', 'O', 'T', 'L'};
 	char a[] = {'4', '3', '0', '7', '1'};
 
-	if (str[i] == ':
+	while (str[i])
+	{
+		for (j; j <= 4; j++)
+		{
+			if (str[i] == leet[j] || tlee[j])
+				str[] = a[j];
+		}
+		i++;
+	return (str)
+	}
+}
