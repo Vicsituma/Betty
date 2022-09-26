@@ -8,18 +8,18 @@ char *leet(char *str)
 {
 	int i = 0;
 	int j = 0;
-	char leet[] = {'a', 'e', 'o', 't', 'l'};
+	char leett[] = {'a', 'e', 'o', 't', 'l'};
 	char tlee[] = {'A', 'E', 'O', 'T', 'L'};
-	char a[] = {'4', '3', '0', '7', '1'};
+	int a[] = {'4', '3', '0', '7', '1'};
 
 	while (str[i])
 	{
-		for (j; j <= 4; j++)
+		for (; j <= 4; j++)
 		{
-			if (str[i] == leet[j] || tlee[j])
-				str[] = a[j];
+			if (str[i] == leett[j] || tlee[j])
+				str[i] = a[j] + '0';
 		}
 		i++;
-	return (str)
 	}
+	return (str);
 }
