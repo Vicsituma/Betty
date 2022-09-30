@@ -8,11 +8,11 @@
 int a_prime(int n, int i)
 {
 	if (i == n && n > 1)
-		return 1;
+		return (1);
 	if (n % i == 0)
 		return (0);
 	else
-		return(a_prime(n, i +1);
+		return(a_prime(n, i + 1));
 }
 
 
