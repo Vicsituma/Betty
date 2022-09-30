@@ -24,6 +24,7 @@ int a_prime(int n, int i)
 /**
  * is_prime_number - returns 1 if the input integer is a prime number,
  *  otherwise return 0
+ * Desc: this pogram checks ifa number is a prime number
  * @n: integer to check
  * Return: 1 if the input integer is a prime number, otherwise return 0
 */
