@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-		j += atoi(argv[i]);
 		}
+		j += atoi(argv[i]);
 	}
 	printf("%d\n", j);
-	return (j);
+	return (0);
 }
