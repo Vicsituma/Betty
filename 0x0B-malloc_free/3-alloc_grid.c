@@ -28,7 +28,7 @@ int **alloc_grid(int width, int height)
 			return (NULL);
 		}
 	}
-	for (height_ind = 0; height_ind < height_ind++)
+	for (height_ind = 0; height_ind < height; height_ind++)
 	{
 		for (w_ind = 0; w_ind < width; w_ind++)
 			td[height_ind][w_ind] = 0;
