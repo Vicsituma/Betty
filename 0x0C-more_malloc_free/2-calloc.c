@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * *_calloc - allocates memory for an array, using malloc.
  * @nmemb: no of elements in array
@@ -7,7 +8,8 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *arr, i;
+	int *arr;
+	int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
