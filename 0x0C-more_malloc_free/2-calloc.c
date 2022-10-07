@@ -8,7 +8,7 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *arr;
+	unsigned int *arr;
 	int i;
 
 	if (nmemb == 0 || size == 0)
@@ -21,5 +21,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		arr[i] = 0;
 
 	return (arr);
-	free(arr);
 }
