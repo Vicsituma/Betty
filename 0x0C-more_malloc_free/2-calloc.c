@@ -14,10 +14,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	arr = malloc(nmemb * size);
 	if (!arr)
+	{
 		return (NULL);
-
-	for (i = 0; i < *(arr + i); i++)
-		arr[i] = 0;
+	}
+	else
+	{
+		memset(arr, 0, nmemb * size);
+	}
 
 	return (arr);
 	free(arr);
