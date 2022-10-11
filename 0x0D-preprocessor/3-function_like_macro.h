@@ -1,5 +1,5 @@
 #ifndef FUNC
 #include <stdlib.h>
-#define ABS(X) abs(x)
+#define ABS(X) abs(X)
 
 #endif
