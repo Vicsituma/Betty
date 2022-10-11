@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * numcomb - prints all possible different combinations of two digits
+ * main - prints all possible different combinations of two digits
  * Return: always 0
 */
 int main(void)
