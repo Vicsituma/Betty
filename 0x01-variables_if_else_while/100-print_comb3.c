@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * numcomb - prints all possible different combinations of two digits
- * Return: none
+ * Return: always 0
 */
-void main(void)
+int main(void)
 {
 	int i, j;
 
@@ -11,23 +11,19 @@ void main(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (i == j)
-			{
-				continue;
-			}
-			else if ( j > i)
-			{
-				continue;
-			}
-			else
+			if (i != j && i < j)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
 			}
+			else
+				continue;
 			if (i == 8 && j == 9)
 				break;
 			putchar(',');
 			putchar(' ');
 		}
 	}
+	putchar('\n');
+	return (0);
 }
