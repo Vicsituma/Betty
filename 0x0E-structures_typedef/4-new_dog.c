@@ -31,10 +31,11 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * *new_dog -  creates a new dog.
+ * new_dog - creates a new dog.
  * @name: dog name
  * @age: dog age
  * @owner: dog's ower
+ * Return: pointer to dog instance
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -51,7 +52,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(dog);
 		return (NULL);
 	}
-	dog->owner = malloc(sizeof(char ) * (_strlen(owner) + 1));
+	dog->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 	if ((*dog).owner == NULL)
 	{
 		free(dog->name);
