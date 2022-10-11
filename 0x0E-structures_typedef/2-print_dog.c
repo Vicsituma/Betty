@@ -4,30 +4,18 @@
  * @d: dog instance
  * Return: none
 */
-struct dog *my_dog(char *name, char *owner, float age)
-{
-	struct dog *d;
-
-	d = malloc(sizeof(struct dog));
-	if (d == NULL)
-		return (NULL);
-	if (name)
-		d->name = name;
-	else
-		d->name = "nil";
-	if (age)
-		d->age = age;
-	else
-		d->age = "nil";
-	if (owner)
-		d->owner = owner;
-	else
-		d->owner = "nil";
-}
 void print_dog(struct dog *d)
 {
-	d = my_dog(char *name, char *owner, float age);
-	printf("Name: %s\n", name);
-	printf("Age: %f\n", age);
-	printf("Owner: %s\n", owner);
+	if (d != NULL)
+	{
+		if (d->name == NULL)
+			printf("Name: (nil)");
+		else
+			printf("Name: %s\n",d->name);
+		printf("Age: %f\n", d->age);
+		if (d->owner == NULL)
+			printf("Owner: (nil)\n");
+		else
+			printf("Owner: %s\n", d->owner);
+	}
 }
