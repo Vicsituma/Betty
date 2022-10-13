@@ -32,3 +32,4 @@ void times_table(void)
 		if (i < 9)
 			_putchar('\n');
 }
+}
