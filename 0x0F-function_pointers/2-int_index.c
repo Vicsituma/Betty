@@ -13,16 +13,11 @@ int int_index(int *array, int size, int (*cmp)(int))
 	int i;
 
 	if (array == NULL || size < 1 || cmp == NULL)
-		return -1;
+		return (-1);
 	for (i = 0; i < (int)size; i++)
 	{
-<<<<<<< HEAD
 		if (cmp(array[i]);
 				return (i);
-=======
-		if (cmp(array[i]))
-			return (i);
->>>>>>> 56602b86140d4224ee663f1dc9d752a95eb6885e
 	}
 	return (-1);
 }
