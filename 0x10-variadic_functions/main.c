@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	print_numbers(",", 0);
+	print_numbers(",", 4, 7, 8, 9, 2);
 	return (0);
 }
