@@ -1,4 +1,5 @@
 #ifndef MAIN_H
+
 #define MAIN_H
 
 #include <stdio.h>
@@ -13,5 +14,7 @@ void print_line(int);
 void print_diagonal(int);
 void print_square(int);
 void print_triangle(int);
+void print_number(int);
+void prime_factor(void);
 #endif
 
