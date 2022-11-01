@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
+=======
+#include "main.h"
+>>>>>>> 3ed6f9bb53dc71d463d04cf756b6807bca34bc3a
 /**
  * prime_factor -  finds and prints the largest prime factor
  * of the number 612852475143, followed by a new line

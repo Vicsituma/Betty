@@ -15,5 +15,9 @@ void print_diagonal(int);
 void print_square(int);
 void print_triangle(int);
 void print_number(int);
+<<<<<<< HEAD
+=======
+void prime_factor(void);
+>>>>>>> 3ed6f9bb53dc71d463d04cf756b6807bca34bc3a
 #endif
 
