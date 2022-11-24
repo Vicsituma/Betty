@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * prime_factor -  finds and prints the largest prime factor
  * of the number 612852475143, followed by a new line
  * Return: nothing
  */
-void prime_factor(void)
+int main(void)
 {
 	long int i, k, j = 612852475143;
 
@@ -20,10 +19,7 @@ void prime_factor(void)
 			j = (j / i);
 			k = i;
 		}
-		else if (i == 612852475143)
-		{
-			break;
-		}
 	}
 	printf("%ld\n",k);
+	return (0);
 }
