@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * prime_factor -  finds and prints the largest prime factor
@@ -24,5 +25,5 @@ void prime_factor(void)
 			break;
 		}
 	}
-	printf("%ld\n",k)
+	printf("%ld\n",k);
 }
