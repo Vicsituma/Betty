@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * prime_factor -  finds and prints the largest prime factor
+ * main-  finds and prints the largest prime factor
  * of the number 612852475143, followed by a new line
  * Return: nothing
  */
@@ -20,6 +20,6 @@ int main(void)
 			k = i;
 		}
 	}
-	printf("%ld\n",k);
+	printf("%ld\n", k);
 	return (0);
 }
