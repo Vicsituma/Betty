@@ -7,14 +7,13 @@
 size_t dlistint_len(const dlistint_t *h)
 {
 	size_t n = 0;
-	const dlistint_t *temp  = h;
 
 	if (h == NULL)
 		return (0);
-	while (temp->next != NULL)
+	while (h)
 	{
 		n++;
-		temp = temp->next;
+		h = h->next;
 	}
 	return (n);
 }
